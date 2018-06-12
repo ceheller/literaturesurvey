@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+  <html>
+    <head>
+      <title>Survey of Literature</title>
+      <meta charset="utf-8"/>
+      <link rel="stylesheet"; type="text/css"; href="style.css"/>
+      <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    </head>
+
+    <body>
+      <div><h1 id="title">Survey of Literature</h1></div>
+      <div><p id="description">Tell us about your relationship with Literature</p></div>
+      <div id="form">
+        <form id="survey-form">
+          <label id="name-label" class="formName">Name</label> <input id="name" type="text" placeholder="Your name"></br>
+          <label id="email-label" class="formName">E-Mail</label> <input id="email" type="email" placeholder="Your email"></br>
+          <label id="number-label" class="formName">Your Age</label> <input id="number" type="number" min="18" max="100" placeholder="Age"></br>
+          <label class="formName">What's your favorite kind of literature?</label></br>
+          <select id="dropdown">
+            <option value="Poetry">Poetry</option>
+            <option value="Short Stories">Short Stories</option>
+            <option value="Novels">Novels</option>
+            <option value="Non-Fiction">Non-Fiction</option>
+          </select></br>
+          <label class="formName">Have you ever written a piece of Literature?</label>
+          <input type="radio" name="written" value="one" checked /> yes </input>
+          <input type="radio" name="written" value="two" /> no </input></br>
+          <label class="formName">Have you ever heard of one of these authors?</label></br>
+          <input type='checkbox' value='first' />J.Cortazar
+          <input type='checkbox' value='second' />J.L. Borges
+          <input type='checkbox' value='thirth' />Roberto Bolaños
+          <input type='checkbox' value='fourth' />Virginia Woolf
+          <textarea>Write here how you feel about literature</textarea></br>
+          <button id="submit">Submit Form, thank you!</button>
+        </form>
+    </body>
+
+    </html>
